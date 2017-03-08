@@ -7,29 +7,24 @@
     <!-- include bootstrap -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <style>
-      .row div.panel-primary {
-        text-align: center;
-      }
-        .row div.panel-primary div.panel-footer {
-          bottom: 30px;
-          margin: 0 auto;
-          position: absolute;
-        }
-      @media (min-width: 768px) {
-        .row div.panel-primary {
-          height: 350px;
-        }
-      }
-      @media (min-width: 992px) {
-        .row div.panel-primary {
-          height: 300px;
-        }
-      }
-      @media (min-width: 1200px) {
-        .row div.panel-primary {
-          height: 250px;
-        }
-      }
+	.row div.panel-primary {
+	  text-align: center;
+	}
+	@media (min-width: 768px) {
+	  .row div.panel-primary > div.panel-body {
+	    min-height: 300px;
+	  }
+	}
+	@media (min-width: 992px) {
+	  .row div.panel-primary > div.panel-body {
+	    min-height: 250px;
+	  }
+	}
+	@media (min-width: 1200px) {
+	  .row div.panel-primary > div.panel-body {
+	    min-height: 200px;
+	  }
+	}
     </style>
 </head>
 <body>
