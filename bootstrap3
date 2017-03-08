@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 3 responsive columns of same height</title>
+    <meta name="description" content="Bootstrap 3 responsive columns of same height">
+    <!-- include bootstrap -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <style>
+      .row div.panel-primary {
+        text-align: center;
+      }
+        .row div.panel-primary div.panel-footer {
+          bottom: 30px;
+          margin: 0 auto;
+          position: absolute;
+        }
+      @media (min-width: 768px) {
+        .row div.panel-primary {
+          height: 350px;
+        }
+      }
+      @media (min-width: 992px) {
+        .row div.panel-primary {
+          height: 300px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .row div.panel-primary {
+          height: 250px;
+        }
+      }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+  <h1>Full Height</h1>
+  <div class="row">
+<div class="col-sm-4 ">
+<div class="wpb_wrapper" style="">
+<div class="panel panel-primary wpb_animate_when_almost_visible wpb_bottom-to-top wpb_start_animation" style="border: 1px solid #428bca !important;">
+<div class="panel-heading">
+<h3 class="panel-title">
+            দলিত সাহিত্য
+          </h3>
+</div>
+<div class="panel-body">
+<p>
+					যারা ব্রাহ্মণ্যধর্মীদের দ্বারা বর্ণপ্রথা তথা জাতপাত ও অস্পৃশ্যতার অজুহাতে ধর্মীয়, সামাজিক ও রাজনৈতিক অধিকার থেকে অমানবিকভাবে যুগ যুগ ধরে বঞ্চিত ও. 
+				  </p>
+<br>
+</div>
+  <div class="panel-footer">
+    <a class="btn y_circle_main_color" href="/p/dalit-literature.html" title="contact">Read in detail</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="wpb_wrapper" style="">
+<div class="panel panel-primary wpb_animate_when_almost_visible wpb_bottom-to-top wpb_start_animation" style="border: 1px solid #428bca !important;">
+<div class="panel-heading">
+<h3 class="panel-title">
+            দলিত সাহিত্য
+          </h3>
+</div>
+<div class="panel-body">
+<p>
+					যারা, সামাজিক ও রাজনৈতিক অধিকার থেকে অমানবিকভাবে যুগ যুগ ধরে বঞ্চিত ও নিপীড়িত হয়ে আসছেন তাঁরাই দলিত। তাঁদের দুঃখ, ব্যথাবেদনা, ক্ষোভ ইত্যাদি তাঁদের কলমেই প্রকাশিত যে সাহিত্য তাই দলিত সাহিত্য। 
+				  </p>
+<br>
+</div>
+  <div class="panel-footer">
+    <a class="btn y_circle_main_color" href="/p/dalit-literature.html" title="contact">Read in detail</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="wpb_wrapper" style="">
+<div class="panel panel-primary wpb_animate_when_almost_visible wpb_bottom-to-top wpb_start_animation" style="border: 1px solid #428bca !important;">
+<div class="panel-heading">
+<h3 class="panel-title">
+            দলিত সাহিত্য
+          </h3>
+</div>
+<div class="panel-body">
+<p>
+					যারা ব্রাহ্মণ্যধর্মীদের দ্
+				  </p>
+<br>
+</div>
+  <div class="panel-footer">
+    <a class="btn y_circle_main_color" href="/p/dalit-literature.html" title="contact">Read in detail</a>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+
+
+  
+</body>
+</html>
